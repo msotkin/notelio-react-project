@@ -4,16 +4,52 @@ body {
 
 .notecard {
     resize: none;
-    height: 240px;
-    width: 400px;
+    height: 210px;
+    width: 350px;
     text-align: center;
     padding: 20px 10px 20px 10px;
     font-family: Courier New, Courier, monospace;
     font-size: 18px;
+    line-height: 140%;
+    margin: 15px 35px 0 35px;
+}
+
+.notecard:focus {
+    outline-color: #9ca4af;
 }
 
 #navbar {
-    height: 40px;
+    height: 60px;
     width: 100%;
     background-color: white;
+    margin: -10px 0 0 -10px;
+    padding: 0px 0px 0 20px;
+}
+
+p {
+    font-size: 23px;
+    font-weight: bold;
+    font-family: Courier New, Courier, monospace;
+}
+
+button {
+    border: none;
+    background: none;
+    font-family: Courier New, Courier, monospace;
+    font-size: 15px;
+    padding: 5px 5px 5px 5px;
+}
+
+button:hover {
+    border: 1px solid #9ca4af;
+    border-radius: 2px;
+}
+
+button:focus {
+    outline: none;
+}
+
+.nav {
+    display: inline-block;
+    margin: -6px 10px 0px 10px;
 }
