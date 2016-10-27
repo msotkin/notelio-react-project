@@ -7,7 +7,15 @@ class Navbar extends Component {
     render() {
         return (
             <div id="navbar">
-                <button onClick= {this.props.makeCard}>New Card</button>
+                <div className="nav">
+                <p>notelio.</p>
+                </div>
+                <div className="nav">
+                <button onClick= {this.props.makeCard}>new card.</button>
+                </div>
+                <div className="nav">
+                <button onClick= {this.props.deleteCard}>delete.</button>
+                </div>
             </div>
         )
     }
